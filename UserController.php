@@ -7,5 +7,5 @@ public function insert(Request $request)
             'password' => 'required|min:6'
         ]);
 
-        return view('abc');
+        return view('insert');
     }
